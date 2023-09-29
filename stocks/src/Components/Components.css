@@ -1,0 +1,484 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 12vh;
+    border-bottom: 3px solid black;
+}
+.name{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 10vh;
+    width: 20vw;
+}
+.name img{
+    height: 8vh;
+    cursor: pointer;
+}
+.name p{
+    font-size: 4vh;
+    cursor: pointer;
+    font-weight: 800;
+    color: wheat;
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 10vh;
+    width: 50vw;
+}
+.links .active{
+    color:#ff5800;
+    border-bottom: 2px solid #fff;
+}
+.links a{
+    font-weight: 600;
+    color:wheat;
+    font-size: 4vh;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 1s;
+}
+.links a:hover{
+    font-size: 5vh;
+    color: #ff5800;
+}
+.name1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 10vh;
+    width: 20vw;
+}
+.name1 .active{
+    border-bottom: 2px solid #fff;
+    color: #ff5800;
+}
+.name1 a{
+    font-weight: 600;
+    color:wheat;
+    font-size: 4vh;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.name1 a:hover{
+    color: #ff5800;
+    font-size: 5vh;
+    padding: 1vh;
+}
+.name1 img{
+    height: 8vh;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 10vh;
+    border-top: 5px solid black;
+}
+.footer p{
+    font-weight: 600;
+    color:wheat;
+    font-size: 4vh;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 1s;
+}
+.footer p:hover{
+    font-size: 5vh;
+    color: #ff5800;
+}
+
+@media screen and (min-width:320px) and (max-width:480px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        font-family: sans-serif;
+    }
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 10vh;
+    }
+    .name{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 10vh;
+        width: 10vw;
+    }
+    .name img{
+        height: 4vh;
+        cursor: pointer;
+    }
+    .name p{
+        display: none;
+    }
+    .links{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 10vh;
+        width: 60vw;
+    }
+    .links .active{
+        color:#ff5800;
+        border-bottom: 2px solid #fff;
+    }
+    .links a{
+        font-weight: 600;
+        color: wheat;
+        font-size: 1rem;
+        cursor: pointer;
+        transition-property: all;
+        transition-duration: 1s;
+    }
+    .links a:hover{
+        font-size: 1rem;
+        color: #ff5800;
+    }
+    .name1{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 10vh;
+        width: 30vw;
+    }
+    .name1 .active{
+        border-bottom: 2px solid #fff;
+        color: #ff5800;
+    }
+    .name1 a{
+        font-weight: 600;
+        color: wheat;
+        font-size: 1rem;
+        transition-property: all;
+        transition-duration: 1s;
+    }
+    .name1 a:hover{
+        color: #ff5800;
+        font-size: 1rem;
+        padding: 1vh;
+    }
+    .menu{
+        display: flex;
+        height: 10vh;
+        width: 20vw;
+    }
+    .menu img{
+        height: 6vh;
+        margin-top: 2vh;
+    }
+    .footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 10vh;
+    }
+    .footer p{
+        font-weight: 600;
+        color: wheat;
+        font-size: 1.5rem;
+        cursor: pointer;
+        transition-property: all;
+        transition-duration: 1s;
+    }
+}
+@media screen and (min-width:481px) and (max-width:768px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        font-family: sans-serif;
+    }
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 10vh;
+    }
+    .name{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 10vh;
+        width: 10vw;
+    }
+    .name img{
+        height: 4vh;
+        cursor: pointer;
+    }
+    .name p{
+        display: none;
+    }
+    .links{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 10vh;
+        width: 60vw;
+    }
+    .links .active{
+        color:#ff5800;
+        border-bottom: 2px solid #fff;
+    }
+    .links a{
+        color: #fff;
+        font-size: 1.5rem;
+        cursor: pointer;
+        transition-property: all;
+        transition-duration: 1s;
+    }
+    .links a:hover{
+        font-size: 1rem;
+        color: #ff5800;
+    }
+    .name1{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 10vh;
+        width: 30vw;
+    }
+    .name1 .active{
+        border-bottom: 2px solid #fff;
+        color: #ff5800;
+    }
+    .name1 a{
+        color: #fff;
+        font-size: 1.5rem;
+        transition-property: all;
+        transition-duration: 1s;
+    }
+    .name1 a:hover{
+        color: #ff5800;
+        font-size: 1rem;
+        padding: 1vh;
+    }
+    .menu{
+        display: flex;
+        height: 10vh;
+        width: 20vw;
+    }
+    .menu img{
+        height: 6vh;
+        margin-top: 2vh;
+    }
+    .footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 10vh;
+    }
+    .footer p{
+        color: #fff;
+        font-size: 1.5rem;
+        cursor: pointer;
+        transition-property: all;
+        transition-duration: 1s;
+    }
+}
+@media screen and (min-width:769px) and (max-width:1024px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        font-family: sans-serif;
+    }
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 10vh;
+    }
+    .name{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 10vh;
+        width: 10vw;
+    }
+    .name img{
+        height: 4vh;
+        cursor: pointer;
+    }
+    .name p{
+        display: none;
+    }
+    .links{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 10vh;
+        width: 60vw;
+    }
+    .links .active{
+        color:#ff5800;
+        border-bottom: 2px solid #fff;
+    }
+    .links a{
+        color: #fff;
+        font-size: 1.5rem;
+        cursor: pointer;
+        transition-property: all;
+        transition-duration: 1s;
+    }
+    .links a:hover{
+        font-size: 1rem;
+        color: #ff5800;
+    }
+    .name1{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 10vh;
+        width: 30vw;
+    }
+    .name1 .active{
+        border-bottom: 2px solid #fff;
+        color: #ff5800;
+    }
+    .name1 a{
+        color: #fff;
+        font-size: 1.5rem;
+        transition-property: all;
+        transition-duration: 1s;
+    }
+    .name1 a:hover{
+        color: #ff5800;
+        font-size: 1rem;
+        padding: 1vh;
+    }
+    .menu{
+        display: flex;
+        height: 10vh;
+        width: 20vw;
+    }
+    .menu img{
+        height: 6vh;
+        margin-top: 2vh;
+    }
+    .footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 10vh;
+    }
+    .footer p{
+        color: #fff;
+        font-size: 1.5rem;
+        cursor: pointer;
+        transition-property: all;
+        transition-duration: 1s;
+    }
+}
+@media screen and (min-width:1025px) and (max-width:1200px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        font-family: sans-serif;
+    }
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 10vh;
+    }
+    .name{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 10vh;
+        width: 10vw;
+    }
+    .name img{
+        height: 4vh;
+        cursor: pointer;
+    }
+    .name p{
+        display: none;
+    }
+    .links{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 10vh;
+        width: 60vw;
+    }
+    .links .active{
+        color:#ff5800;
+        border-bottom: 2px solid #fff;
+    }
+    .links a{
+        color: #fff;
+        font-size: 1rem;
+        cursor: pointer;
+        transition-property: all;
+        transition-duration: 1s;
+    }
+    .links a:hover{
+        font-size: 1rem;
+        color: #ff5800;
+    }
+    .name1{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 10vh;
+        width: 30vw;
+    }
+    .name1 .active{
+        border-bottom: 2px solid #fff;
+        color: #ff5800;
+    }
+    .name1 a{
+        color: #fff;
+        font-size: 1rem;
+        transition-property: all;
+        transition-duration: 1s;
+    }
+    .name1 a:hover{
+        color: #ff5800;
+        font-size: 1rem;
+        padding: 1vh;
+    }
+    .menu{
+        display: flex;
+        height: 10vh;
+        width: 20vw;
+    }
+    .menu img{
+        height: 6vh;
+        margin-top: 2vh;
+    }
+    .footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 10vh;
+    }
+    .footer p{
+        color: #fff;
+        font-size: 1.5rem;
+        cursor: pointer;
+        transition-property: all;
+        transition-duration: 1s;
+    }
+}
